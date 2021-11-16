@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+.css-ja5taz-MuiTooltip-tooltip {
+    max-width: 392px !important;
+    background-color: #333954 !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.css-ol7wxs-MuiTypography-root {
+    color: #0e101a !important;
+    font-family:"Inter" sans-serif !important;
+    font-size: 30px !important;
+    line-height: 144px !important;
+    font-weight: 600 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.css-eglki6-MuiLinearProgress-root {
+    height: 2px !important;
+    background-color: #e7e9f5 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.css-5xe99f-MuiLinearProgress-bar1 {
+  background-color: #0e101a !important;
 }
 
-.App-link {
-  color: #61dafb;
+.active .makeStyles-image1-5 {
+    -webkit-animation-name: example1;
+    animation-name: example1;
+    animation-duration: 5s;
+    -webkit-animation-duration: 5s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.active .makeStyles-image2-6 {
+    -webkit-animation-name: example2;
+    animation-name: example2;
+    animation-dalay: 1s;
+    animation-duration: 4s;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-delay: 1s;
+}
+
+@keyframes example1 {
+    0% { top: -50px;opacity: 0}
+    15% { top: 0px;opacity: 0.9}
+    100% {top: 0px;opacity: 1}
+}
+@keyframes example2 {
+    0% { bottom: 50px;opacity: 0}
+    20% { bottom: 20px;opacity: 0.9}
+    100% { bottom: 20px;opacity: 1}
 }
